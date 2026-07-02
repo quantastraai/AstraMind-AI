@@ -1,0 +1,128 @@
+@import "@fontsource/geist/latin-500.css";
+@import "@fontsource/geist/latin-600.css";
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-border: hsl(var(--border));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-hero: Geist, Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 4%;
+  --muted-foreground: 0 0% 40%;
+  --border: 0 0% 90%;
+  --primary: 0 0% 4%;
+  --primary-foreground: 0 0% 100%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    margin: 0;
+  }
+
+  .brand-mark {
+    width: auto;
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+  }
+
+  .font-hero {
+    font-family: var(--font-hero);
+  }
+}
+
+@layer utilities {
+  .bg-base-gradient {
+    background: linear-gradient(
+      180deg,
+      rgb(250 250 250) 0%,
+      rgb(255 255 255) 40%,
+      rgb(248 248 248) 100%
+    );
+  }
+
+  .bg-grid-subtle {
+    background-image:
+      linear-gradient(to right, rgb(0 0 0 / 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(0 0 0 / 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse 90% 80% at 50% 30%, black 20%, transparent 80%);
+  }
+
+  .bg-noise-subtle {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+  }
+
+  .bg-radial-glow-top {
+    background-image: radial-gradient(
+      ellipse 70% 50% at 50% -5%,
+      rgb(0 0 0 / 0.07),
+      transparent 65%
+    );
+  }
+
+  .bg-radial-glow-center {
+    background-image: radial-gradient(
+      ellipse 50% 40% at 50% 50%,
+      rgb(0 0 0 / 0.025),
+      transparent 70%
+    );
+  }
+
+  .bg-radial-glow-center-right {
+    background-image: radial-gradient(
+      ellipse 42% 48% at 74% 46%,
+      rgb(0 0 0 / 0.028),
+      transparent 72%
+    );
+  }
+
+  .bg-vignette {
+    background: radial-gradient(
+      ellipse 100% 100% at 50% 50%,
+      transparent 50%,
+      rgb(0 0 0 / 0.03) 100%
+    );
+  }
+
+  .bg-hero-glow {
+    background-image: radial-gradient(
+      ellipse 55% 45% at 68% 42%,
+      rgb(0 0 0 / 0.032),
+      transparent 68%
+    );
+  }
+
+  .bg-hero-neural {
+    background-image: radial-gradient(
+        circle at 50% 50%,
+        rgb(0 0 0 / 0.03) 1px,
+        transparent 1px
+      ),
+      radial-gradient(
+        ellipse 80% 60% at 50% 50%,
+        rgb(0 0 0 / 0.02),
+        transparent 70%
+      );
+    background-size:
+      24px 24px,
+      100% 100%;
+  }
+}
