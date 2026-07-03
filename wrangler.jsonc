@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "astramindai-frontend",
+  "compatibility_date": "2026-07-03",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "AstraMindAI_frontend"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
