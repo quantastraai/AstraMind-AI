@@ -4,11 +4,13 @@
 
 ### Enterprise AI Workspace Experience
 
-A premium AI workspace landing page built to showcase modern product design, immersive motion, responsive engineering and production-ready frontend architecture.
+A premium AI workspace landing page crafted to showcase modern product design, immersive motion, responsive engineering, and production-ready frontend architecture.
 
-[Live Demo](https://astramindai.quantastraai.in) • [Portfolio](https://quantastraai.in)
-
----
+<p>
+  <a href="https://astramindai.quantastraai.in"><strong>🚀 Live Demo</strong></a> •
+  <a href="https://quantastraai.in"><strong>🌐 QuantAstra Solutions</strong></a> •
+  <a href="https://github.com/quantastraai"><strong>💻 GitHub</strong></a>
+</p>
 
 Built with ❤️ by **QuantAstra Solutions**
 
@@ -16,153 +18,143 @@ Built with ❤️ by **QuantAstra Solutions**
 
 ---
 
-# Overview
+# Preview
 
-AstraMind AI is a premium product showcase built to demonstrate how a modern AI workspace should feel.
+> Replace the image below with your latest project screenshot.
 
-Rather than focusing on static marketing content, AstraMind combines storytelling, interaction design and smooth motion to create an immersive user experience inspired by products like **Linear**, **Stripe**, **Vercel** and **Apple**.
-
-The project emphasizes clean architecture, production-quality animations, responsive layouts and enterprise-level UI consistency.
+<p align="center">
+  <img src="./screenshots/hero.png" alt="AstraMind AI Hero" width="100%">
+</p>
 
 ---
 
-# Features
+# Overview
 
-- Premium AI product landing page
-- Interactive product showcase
-- Dynamic workspace morphing
-- Department-based AI use cases
-- Enterprise trust experience
-- Engineering architecture visualization
-- Scroll-driven storytelling
-- Fully responsive design
-- Accessibility-first implementation
+AstraMind AI is a premium enterprise AI workspace concept designed to demonstrate how modern AI products should feel.
+
+Instead of relying on static marketing pages, AstraMind combines storytelling, smooth interactions, premium animations, and responsive engineering to create an immersive product experience inspired by companies like **Apple, Linear, Stripe, and Vercel**.
+
+The project showcases production-grade frontend architecture with a strong focus on performance, accessibility, scalability, and polished user experience.
+
+---
+
+# Highlights
+
+- Enterprise AI SaaS Landing Page
+- Interactive Product Storytelling
+- AI Workspace Experience
+- Dynamic Department Use Cases
+- Enterprise Trust Experience
+- Scroll-driven GSAP Animations
+- Responsive Across All Devices
+- Accessibility-first Development
 - Production-ready SEO
-- High-performance GSAP animations
-- Optimized for deployment
+- High-performance Frontend Architecture
 
 ---
 
 # Tech Stack
 
-### Frontend
+## Frontend
 
 - React
 - TypeScript
 - Vite
 
-### Styling
+## Styling
 
 - Tailwind CSS
 - CSS Variables
 
-### Animation
+## Animation
 
 - GSAP
 - Framer Motion
 
-### Icons
+## UI
 
 - Lucide React
 
-### Tooling
+## Tooling
 
 - ESLint
 - TypeScript
-- Vite Build
+- Vite
+
+---
+
+# Screenshots
+
+## Hero Experience
+
+> Premium AI-first landing experience.
+
+<p align="center">
+<img src="./screenshots/hero.png" width="100%">
+</p>
+
+---
+
+## Product Showcase
+
+> Interactive AI workspace with immersive product presentation.
+
+<p align="center">
+<img src="./screenshots/product-showcase.png" width="100%">
+</p>
+
+---
+
+## Department Use Cases
+
+> Multiple enterprise workflows demonstrated through dynamic UI.
+
+<p align="center">
+<img src="./screenshots/use-cases.png" width="100%">
+</p>
+
+---
+
+## AI Architecture
+
+> React UI → Knowledge Engine → AI Response.
+
+<p align="center">
+<img src="./screenshots/architecture.png" width="100%">
+</p>
+
+---
+
+## Final CTA
+
+> Premium project conclusion.
+
+<p align="center">
+<img src="./screenshots/cta.png" width="100%">
+</p>
 
 ---
 
 # Project Structure
 
 ```text
-src/
+src
+├── assets
+├── components
+├── hooks
+├── layouts
+├── lib
+├── sections
+├── styles
+└── App.tsx
 
-components/
-hooks/
-layouts/
-lib/
-sections/
-styles/
-assets/
-
-public/
-
-robots.txt
-sitemap.xml
-site.webmanifest
+public
+├── robots.txt
+├── sitemap.xml
+└── site.webmanifest
 
 index.html
 ```
-
----
-
-# Key Sections
-
-## Hero
-
-Modern AI-first landing experience with premium motion.
-
----
-
-## Product Showcase
-
-Interactive product presentation with immersive transitions.
-
----
-
-## Use Cases
-
-Workspace morphs dynamically across multiple departments including:
-
-- Sales
-- HR
-- Legal
-- Finance
-- Marketing
-- Operations
-
----
-
-## Enterprise Trust
-
-Enterprise credibility section highlighting scalability, security and reliability.
-
----
-
-## Built for Modern Teams
-
-Feature carousel demonstrating collaboration and productivity.
-
----
-
-## AstraMind Effect
-
-Transformation-focused product storytelling.
-
----
-
-## Behind the Build
-
-Architecture visualization showing:
-
-React UI
-
-↓
-
-Knowledge Engine
-
-↓
-
-AI Response
-
-Designed as a production-quality engineering showcase.
-
----
-
-## Final CTA
-
-Minimal, premium conclusion encouraging project collaboration.
 
 ---
 
@@ -171,34 +163,34 @@ Minimal, premium conclusion encouraging project collaboration.
 Optimized for production with:
 
 - Lazy-loaded sections
-- ScrollTrigger cleanup
-- Reduced unnecessary renders
+- Optimized React rendering
 - requestAnimationFrame throttling
-- Optimized animation lifecycle
-- Production build optimization
+- ScrollTrigger lifecycle cleanup
+- Reduced layout shifts
+- Production-ready build optimization
 
 ---
 
 # Accessibility
 
-- Keyboard navigation
-- Focus-visible states
-- Reduced motion support
 - Semantic HTML
-- ARIA improvements
-- Skip navigation
-- Screen-reader friendly structure
+- Keyboard Navigation
+- Skip Navigation
+- Focus-visible States
+- Reduced Motion Support
+- ARIA Improvements
+- Screen Reader Friendly
 
 ---
 
 # SEO
 
-Configured for production:
+Production-ready SEO configuration includes:
 
 - Canonical URL
 - Open Graph
 - Twitter Cards
-- JSON-LD
+- JSON-LD Schema
 - robots.txt
 - sitemap.xml
 - Web Manifest
@@ -207,21 +199,32 @@ Configured for production:
 
 # Responsive Design
 
-Designed for:
+Fully optimized for:
 
 - Desktop
 - Laptop
 - Tablet
 - Mobile
 
-Every section has been individually optimized instead of simply scaling the desktop layout.
+Every section has been individually refined instead of simply scaling the desktop layout.
 
 ---
 
-# Development
+# Lighthouse Goals
+
+| Category | Target |
+|-----------|--------|
+| Performance | 95+ |
+| Accessibility | 100 |
+| Best Practices | 100 |
+| SEO | 100 |
+
+---
+
+# Local Development
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/quantastraai/astramind-ai.git
 
 cd astramind-ai
 
@@ -246,33 +249,28 @@ npm run preview
 
 ---
 
-# Lighthouse Goals
-
-| Category | Target |
-|----------|---------|
-| Performance | 95+ |
-| Accessibility | 100 |
-| Best Practices | 100 |
-| SEO | 100 |
-
----
-
 # Design Philosophy
-
-AstraMind follows one core principle:
 
 > **Technology should feel invisible. The experience should feel effortless.**
 
-Every animation, spacing decision and interaction has been carefully refined to create a premium enterprise product experience.
+Every interaction, animation, transition, and layout has been carefully refined to create a premium enterprise SaaS experience.
 
 ---
 
-# Future Improvements
+# Future Roadmap
 
-- Vendor chunk optimization
-- Advanced analytics dashboard
-- Expanded case studies
-- Additional product showcases
+- Vendor Chunk Optimization
+- AI Dashboard Expansion
+- More Interactive Product Flows
+- Additional Enterprise Case Studies
+
+---
+
+# About the Project
+
+AstraMind AI was created as a frontend engineering showcase to demonstrate premium SaaS product design, modern interaction patterns, responsive engineering, and production-ready React architecture.
+
+The project reflects the design quality and user experience expected from modern enterprise software.
 
 ---
 
@@ -282,32 +280,35 @@ Every animation, spacing decision and interaction has been carefully refined to 
 
 Founder — QuantAstra Solutions
 
-Website: https://quantastraai.in
+🌐 Website  
+https://quantastraai.in
 
-Portfolio: https://astramindai.quantastraai.in
+🚀 Live Demo  
+https://astramindai.quantastraai.in
 
-Email: quantastraai@gmail.com
+💼 LinkedIn  
+https://www.linkedin.com/in/quantastra-ai-4a0669411
 
-LinkedIn: https://www.linkedin.com/in/quantastra-ai-4a0669411
+💻 GitHub  
+https://github.com/quantastraai
 
-GitHub: https://github.com/quantastraai
+✉️ Email  
+quantastraai@gmail.com
 
 ---
 
 # License
 
-This project is part of my professional portfolio.
+This repository is part of my professional portfolio.
 
-The source code is intended for demonstration purposes only.
-
-Please do not reproduce or redistribute without permission.
+The source code is shared for demonstration purposes only and may not be copied, redistributed, or used commercially without prior permission.
 
 ---
 
 <div align="center">
 
-### If you like this project, consider giving it a ⭐
+### ⭐ If you found this project interesting, consider giving it a Star.
 
-Made with React • TypeScript • GSAP • Framer Motion
+Built with React • TypeScript • Tailwind CSS • GSAP • Framer Motion
 
 </div>
