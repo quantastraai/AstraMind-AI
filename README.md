@@ -20,7 +20,6 @@ Built with ❤️ by **QuantAstra Solutions**
 
 # Preview
 
-> Replace the image below with your latest project screenshot.
 
 <p align="center">
   <img src="./screenshots/hero.png" alt="AstraMind AI Hero" width="100%">
@@ -120,7 +119,7 @@ The project showcases production-grade frontend architecture with a strong focus
 > React UI → Knowledge Engine → AI Response.
 
 <p align="center">
-<img src="./screenshots/architecture.png" width="100%">
+<img src="./screenshots/ai-architecture.png" width="100%">
 </p>
 
 ---
